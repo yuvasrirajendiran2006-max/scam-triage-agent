@@ -1,0 +1,51 @@
+[
+  {
+    "id": "kyc_update",
+    "category": "Fake KYC Update",
+    "keywords": ["kyc", "update your kyc", "account will be blocked", "account suspended", "verify your account", "click here to update"],
+    "risk": "high",
+    "explanation": "Banks/telecoms never ask you to 'update KYC' via an SMS link. This is a classic phishing pattern used to steal login credentials."
+  },
+  {
+    "id": "lottery_prize",
+    "category": "Lottery / Prize Scam",
+    "keywords": ["you have won", "lucky winner", "claim your prize", "lottery", "congratulations you have been selected"],
+    "risk": "high",
+    "explanation": "You cannot win a lottery/contest you never entered. Classic advance-fee scam pattern."
+  },
+  {
+    "id": "courier_customs",
+    "category": "Fake Courier / Customs Fee",
+    "keywords": ["parcel is held", "customs duty", "pay a small fee", "courier could not be delivered", "pending delivery charge"],
+    "risk": "high",
+    "explanation": "Courier companies do not ask for advance 'customs fee' payments via SMS links. Common parcel-scam pattern."
+  },
+  {
+    "id": "otp_phishing",
+    "category": "OTP / UPI PIN Phishing",
+    "keywords": ["share your otp", "share your upi pin", "to receive money enter your pin", "verify to receive refund", "cashback pending enter pin"],
+    "risk": "critical",
+    "explanation": "You NEVER need to enter a UPI PIN or share an OTP to RECEIVE money. Only sending money requires a PIN. This is the #1 UPI scam pattern."
+  },
+  {
+    "id": "fake_bank_alert",
+    "category": "Fake Bank/Debit Alert",
+    "keywords": ["unauthorized transaction", "your account has been debited", "block your card immediately call", "suspicious login detected"],
+    "risk": "high",
+    "explanation": "Fake urgency designed to make you call a scammer-controlled number that then asks for card/OTP details."
+  },
+  {
+    "id": "job_investment",
+    "category": "Fake Job / Investment Offer",
+    "keywords": ["work from home earn", "guaranteed returns", "double your money", "part time job earn daily", "telegram group investment"],
+    "risk": "medium",
+    "explanation": "Unsolicited high-return investment or work-from-home offers over SMS/WhatsApp are a common recruitment funnel for scams."
+  },
+  {
+    "id": "electricity_bill",
+    "category": "Fake Electricity Bill Disconnection",
+    "keywords": ["electricity bill not paid", "power will be disconnected today", "pay immediately to avoid disconnection"],
+    "risk": "high",
+    "explanation": "Electricity boards do not threaten same-day disconnection via SMS with a payment link. Common utility-scam pattern."
+  }
+]

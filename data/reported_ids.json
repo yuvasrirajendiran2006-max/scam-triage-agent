@@ -1,0 +1,12 @@
+{
+  "upi_ids": [
+    {"id": "refund.help@oksbi", "reports": 14, "note": "Reported in fake refund scam threads"},
+    {"id": "support.kyc@ybl", "reports": 9, "note": "Used in fake KYC verification messages"},
+    {"id": "prize.claim@paytm", "reports": 21, "note": "Linked to lottery scam reports"}
+  ],
+  "phone_numbers": [
+    {"number": "+91XXXXX11111", "reports": 30, "note": "Multiple reports of fake courier calls"},
+    {"number": "+91XXXXX22222", "reports": 5, "note": "Reported for OTP phishing calls"}
+  ],
+  "note_for_judges": "This is a seed dataset for demo purposes. In production this would be backed by a live crowdsourced reporting API (e.g. TrueCaller-style reports, Chakshu/NCRP portal data, or a community reporting endpoint)."
+}
